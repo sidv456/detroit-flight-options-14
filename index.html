@@ -257,7 +257,9 @@ footer b{color:var(--white);font-weight:600}
 
 @media (max-width:900px){
   .hero{grid-template-columns:1fr}
-  .map-wrap{order:2;max-width:480px}
+  .hero{padding-bottom:.5rem}
+  .map-wrap{order:2;max-width:340px}
+  .options{padding-top:1.5rem}
   .grid{grid-template-columns:1fr}
   .checks ul{grid-template-columns:1fr}
 }
@@ -293,16 +295,16 @@ footer b{color:var(--white);font-weight:600}
     </div>
 
     <div class="map-wrap">
-      <svg class="map" viewBox="0 0 420 290" role="img" aria-label="Routes from Oakland, San Francisco and San Jose converging on Detroit">
+      <svg class="map" viewBox="0 0 420 250" role="img" aria-label="Routes from Oakland, San Francisco and San Jose converging on Detroit">
         <path class="arc z" pathLength="1" d="M70 100 Q200 -10 352 78"/>
         <path class="arc" pathLength="1" d="M58 160 Q200 30 352 78"/>
-        <path class="arc b" pathLength="1" d="M58 160 Q210 70 352 78" style="display:none"/>
+
         <path class="arc c" pathLength="1" d="M84 222 Q220 80 352 78"/>
         <circle class="pt" cx="70" cy="100" r="7"/>
         <circle class="pt" cx="58" cy="160" r="7"/>
         <circle class="pt" cx="84" cy="222" r="7"/>
         <circle class="dtw" cx="352" cy="78" r="11"/>
-        <text x="86" y="92">OAK</text>
+        <text x="54" y="105" text-anchor="end">OAK</text>
         <text x="74" y="170">SFO</text>
         <text x="100" y="236">SJC</text>
         <text class="big" x="300" y="122">DTW</text>
@@ -317,7 +319,7 @@ footer b{color:var(--white);font-weight:600}
   <div class="wrap">
     <div class="sec-head">
       <h2 id="opt-title">The four options</h2>
-      <p>Dates and times are for departures from the Bay Area and the return from Detroit.</p>
+      <p>Each card shows the flight out of the Bay Area and the flight home from Detroit.</p>
     </div>
 
     <div class="grid">
